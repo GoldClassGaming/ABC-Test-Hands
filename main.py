@@ -84,7 +84,7 @@ for x in range(Trials): #runs all the code within this for loop, for the set num
     'print(Starting_Hand)' #uncomment to debug or to test specific starting hands
     
     #Interruption Cards Like Hand Traps or Called by the Grave, add more checks to this list if you run other hand traps
-    if 'Infinite Impermanence' in Starting_Hand or '"Called by the Grave"' in Starting_Hand:
+    if 'Infinite Impermanence' in Starting_Hand or '"Called by the Grave"' in Starting_Hand or 'Ash Blossom & Joyous Spring' in Starting_Hand or 'Effect Veiler' in Starting_Hand:
         Interruptions.append(1)
    
     #Combos, checks if certain combinations of cards are present in your starting hand
@@ -94,7 +94,13 @@ for x in range(Trials): #runs all the code within this for loop, for the set num
         Board_Rank = 3
     if 'Unauthorized Reactivation' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 3:
         Board_Rank = 3
-        if 'Unauthorized Reactivation' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 1:
+    if 'Unauthorized Reactivation' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 1:
+        Board_Rank = 1
+    if 'Galaxy Soldier' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 2:
+        Board_Rank = 2
+    if 'Galaxy Soldier' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 2:
+        Board_Rank = 2
+    if 'B-Buster Drake' in Starting_Hand and 'Photon Sanctuary' in Starting_Hand and Board_Rank < 1:
         Board_Rank = 1
     End_Board.append(Board_Rank) #adds the rank of the best possible board you can make with your starting hand to the End_Board list
 
