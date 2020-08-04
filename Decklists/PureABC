@@ -1,0 +1,55 @@
+    Card_1 = "A-Assault Core"
+    Card_2 = "A-Assault Core"
+    Card_3 = "A-Assault Core"
+    Card_4 = "B-Buster Drake"
+    Card_5 = "B-Buster Drake"
+    Card_6 = "B-Buster Drake"
+    Card_7 = "C-Crush Wyvern"
+    Card_8 = "C-Crush Wyvern"
+    Card_9 = "C-Crush Wyvern"
+    Card_10 = "Union Driver"
+    Card_11 = "Union Driver"
+    Card_12 = "Galaxy Soldier"
+    Card_13 = "Galaxy Soldier"
+    Card_14 = "Galaxy Soldier"
+    Card_15 = "Ash Blossom & Joyous Spring"
+    Card_16 = "Ash Blossom & Joyous Spring"
+    Card_17 = "Ash Blossom & Joyous Spring"
+    Card_18 = "Effect Veiler"
+    Card_19 = "Effect Veiler"
+    Card_20 = "Effect Veiler"
+    Card_21 = "Photon Orbita"
+    Card_22 = "Union Hangar"
+    Card_23 = "Union Hangar"
+    Card_24 = "Union Hangar"
+    Card_25 = "Union Hangar" #This is Terraforming
+    Card_26 = "Union Hangar" #This is Set Rotation
+    Card_27 = "Mystic Mine"
+    Card_28 = "Cynet Universe"
+    Card_29 = "Unauthorized Reactivation"
+    Card_30 = "Unauthorized Reactivation"
+    Card_31 = "Unauthorized Reactivation"
+    Card_32 = "Photon Sanctuary"
+    Card_33 = "Photon Sanctuary"
+    Card_34 = "Photon Sanctuary"
+    Card_35 = "Called by the Grave"
+    Card_36 = "Called by the Grave"
+    Card_37 = "Called by the Grave"
+    Card_38 = "Infinite Impermanence"
+    Card_39 = "Infinite Impermanence"
+    Card_40 = "Infinite Impermanence"
+
+    #If you add more cards, make sure the coresponding card numbers are present in this deck list (get it, its literally a deck list... ha...)
+    Deck_List = [Card_1, Card_2, Card_3, Card_4, Card_5, Card_6,Card_7,Card_8,Card_9,
+                 Card_10, Card_11,Card_12,Card_13,Card_14,Card_15,Card_16,Card_17,Card_18,Card_19,Card_20,
+                 Card_21,Card_22,Card_23,Card_24,Card_25,Card_26,Card_27,Card_28,Card_29,Card_30,Card_31,
+                 Card_32,Card_33,Card_34,Card_35,Card_36,Card_37,Card_38,Card_39,Card_40] # Delete Card_40 if you're playing upstart.
+    Deck_Length = len(Deck_List)
+
+    DO NOT COPY PASTE PAST HERE
+    Extra Deck
+    1 Buster
+    1 Dweller
+    1 Pleiades
+    1 CDI
+    1 Nova

@@ -1,0 +1,48 @@
+    Card_1 = "A-Assault Core"
+    Card_2 = "A-Assault Core"
+    Card_3 = "A-Assault Core"
+    Card_4 = "B-Buster Drake"
+    Card_5 = "B-Buster Drake"
+    Card_6 = "B-Buster Drake"
+    Card_7 = "C-Crush Wyvern"
+    Card_8 = "C-Crush Wyvern"
+    Card_9 = "C-Crush Wyvern"
+    Card_10 = "Union Driver"
+    Card_11 = "Union Driver"
+    Card_12 = "Galaxy Soldier"
+    Card_13 = "Galaxy Soldier"
+    Card_14 = "Galaxy Soldier"
+    Card_15 = "Photon Orbital"
+    Card_16 = "Union Hangar"
+    Card_17 = "Union Hangar"
+    Card_18 = "Union Hangar"
+    Card_19 = "Union Hangar" #This is Terraforming
+    Card_20 = "Unauthorized Reactivation"
+    Card_21 = "Unauthorized Reactivation"
+    Card_22 = "Unauthorized Reactivation"
+    Card_23 = 
+    Card_24 = 
+    Card_25 = 
+    Card_26 = 
+    Card_27 = 
+    Card_28 = 
+    Card_29 = 
+    Card_30 = 
+    Card_31 = 
+    Card_32 = 
+    Card_33 = 
+    Card_34 = 
+    Card_35 = 
+    Card_36 = 
+    Card_37 = 
+    Card_38 = 
+    Card_39 = 
+    Card_40 = 
+    #If you're playing upstart, comment out Card_40
+
+    #If you add more cards, make sure the coresponding card numbers are present in this deck list (get it, its literally a deck list... ha...)
+    Deck_List = [Card_1, Card_2, Card_3, Card_4, Card_5, Card_6,Card_7,Card_8,Card_9,
+                 Card_10, Card_11,Card_12,Card_13,Card_14,Card_15,Card_16,Card_17,Card_18,Card_19,Card_20,
+                 Card_21,Card_22,Card_23,Card_24,Card_25,Card_26,Card_27,Card_28,Card_29,Card_30,Card_31,
+                 Card_32,Card_33,Card_34,Card_35,Card_36,Card_37,Card_38,Card_39,Card_40] # Delete Card_40 if you're playing upstart.
+    Deck_Length = len(Deck_List)
