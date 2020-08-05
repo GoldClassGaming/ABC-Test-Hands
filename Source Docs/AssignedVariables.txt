@@ -1,1 +1,3 @@
 Here we will keep a list of all the variable names we've assigned, what they've been assigned to, and where they were assigned. This way we won't reuse variable names and create errors or confuse ourselves.
+deck = The Deck, assigned in main function in main.py
+Starting_Hand = Holds the hand for combo checking, assigned in ComboCheck function in Combos.py
