@@ -4,6 +4,7 @@ Created on Thu Jul 23 20:25:01 2020
 
 @author: jpalm
 """
+
 Player_Turn = 1 #Input 1 for first, 2 for second
 
 Trials = 10000 #Input the number of test hands you want to run at once
@@ -202,6 +203,8 @@ for x in range(Trials): #runs all the code within this for loop, for the set num
         Board_Rank = 0.5
     if 'Photon Sanctuary' in Starting_Hand and 'Union Driver' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
         Board_Rank = 0.5
+
+        
     End_Board.append(Board_Rank) #adds the rank of the best possible board you can make with your starting hand to the End_Board list
 
 

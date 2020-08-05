@@ -1,0 +1,1 @@
+Here we will keep a list of all the variable names we've assigned, what they've been assigned to, and where they were assigned. This way we won't reuse variable names and create errors or confuse ourselves.
