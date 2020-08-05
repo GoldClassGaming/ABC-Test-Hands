@@ -38,7 +38,7 @@
     Card_38 = 
     Card_39 = 
     Card_40 = 
-    #If you're playing upstart, comment out Card_40
+    #If you're playing upstart, comment out Card_40 by putting # at the start of the line
 
     #If you add more cards, make sure the coresponding card numbers are present in this deck list (get it, its literally a deck list... ha...)
     Deck_List = [Card_1, Card_2, Card_3, Card_4, Card_5, Card_6,Card_7,Card_8,Card_9,
