@@ -4,6 +4,7 @@ Created on Thu Jul 23 20:25:01 2020
 
 @author: jpalm
 """
+
 Player_Turn = 1 #Input 1 for first, 2 for second
 
 Trials = 10000 #Input the number of test hands you want to run at once
