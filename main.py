@@ -202,6 +202,8 @@ for x in range(Trials): #runs all the code within this for loop, for the set num
         Board_Rank = 0.5
     if 'Photon Sanctuary' in Starting_Hand and 'Union Driver' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
         Board_Rank = 0.5
+
+        
     End_Board.append(Board_Rank) #adds the rank of the best possible board you can make with your starting hand to the End_Board list
 
 

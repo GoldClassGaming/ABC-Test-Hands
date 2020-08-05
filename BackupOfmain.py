@@ -102,7 +102,106 @@ for x in range(Trials): #runs all the code within this for loop, for the set num
         Board_Rank = 2
     if 'B-Buster Drake' in Starting_Hand and 'Photon Sanctuary' in Starting_Hand and Board_Rank < 1:
         Board_Rank = 1
-    if 'Galaxy Soldier' in Starting_Hand
+    if 'Galaxy Soldier' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'Effect Veiler' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'Effect Veiler' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'Effect Veiler' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'Effect Veiler' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'Effect Veiler' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'Effect Veiler' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'Effect Veiler' in Starting_Hand and 'Effect Veiler' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'Effect Veiler' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'Union Driver' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'Union Driver' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'Union Driver' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'Union Driver' in Starting_Hand and 'Effect Veiler' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Galaxy Soldier' in Starting_Hand and 'Union Driver' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'Effect Veiler' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'Effect Veiler' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'Effect Veiler' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'Effect Veiler' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'Effect Veiler' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'Effect Veiler' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'Effect Veiler' in Starting_Hand and 'Effect Veiler' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'Effect Veiler' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'Union Driver' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'Union Driver' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'Union Driver' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'Union Driver' in Starting_Hand and 'Effect Veiler' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
+    if 'Photon Sanctuary' in Starting_Hand and 'Union Driver' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 0.5:
+        Board_Rank = 0.5
     End_Board.append(Board_Rank) #adds the rank of the best possible board you can make with your starting hand to the End_Board list
 
 
