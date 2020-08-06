@@ -9,13 +9,13 @@ def ComboCheck(Starting_Hand, deck):
         InterruptionCheck = True
 
     #Combos, checks if certain combinations of cards are present in your starting hand
-    if 'Union Hangar' in Starting_Hand and Board_Rank < 3:
+    if 'Union Hangar' in Starting_Hand and 'Union Driver' in deck and Board_Rank < 3:
         Board_Rank = 3
-    if 'Terraforming' in Starting_Hand and Board_Rank < 3:
+    if 'Terraforming' in Starting_Hand and 'Union Driver' in deck and Board_Rank < 3:
         Board_Rank = 3
-    if 'Set Rotation' in Starting_Hand and 'Mystic Mine' in deck and Board_Rank < 3:
+    if 'Set Rotation' in Starting_Hand and 'Mystic Mine' in deck and 'Union Driver' in deck and Board_Rank < 3:
         Board_Rank = 3
-    if 'Set Rotation' in Starting_Hand and 'Cynet Universe' in deck and Board_Rank < 3:
+    if 'Set Rotation' in Starting_Hand and 'Cynet Universe' in deck and 'Union Driver' in deck and Board_Rank < 3:
         Board_Rank = 3
     if 'Unauthorized Reactivation' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 3:
         Board_Rank = 3

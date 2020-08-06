@@ -1,3 +1,6 @@
+#Original Author: jpalm @_JP53 on twitter
+#Updated and Maintained by: GoldClass @AndyGCG on twitter
+
 from ComboTester import combo
 
 def import_deck(filename):
@@ -10,8 +13,8 @@ def import_deck(filename):
 def main(deck_txt, n):
     print(deck_txt)
     deck = import_deck(deck_txt)
-    #print(deck)
+    print(deck)
     combo(deck, n)
 
-# Using 25000 so it runs quicker as this is an online IDE
+# By editing the parameters of main you can change which deck is tested and how many hands are simulated
 main("Decklists/Pure_ABC.txt", 10000)

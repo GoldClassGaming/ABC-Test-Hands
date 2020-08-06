@@ -19,7 +19,7 @@ def combo(deck, n):
     End_Board = [] #sets up the end board list
     Interruptions = [] #sets up the final list for hand traps or set cards
     for i in range(0, n):
-        test_hand = draw(deck, 5))
+        test_hand = draw(deck, 5)
         shuffle(deck)
         Results = ComboCheck(test_hand, deck)
         Hand_Strength = Results[0]
