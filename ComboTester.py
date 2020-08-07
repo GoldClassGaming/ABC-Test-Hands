@@ -17,13 +17,18 @@ def draw(deck, n):
 def combo(deck, n):
     End_Board = [] #sets up the end board list
     Interruptions = [] #sets up the final list for hand traps or set cards
+    DesiresHands = 0
     for i in range(0, n):
         test_deck = deck.copy()
         shuffle(test_deck)
         test_hand = draw(test_deck, 5)
         Results = ComboCheck(test_hand, test_deck)
         Hand_Strength = Results[0]
-        if 'Pot of Desires' in test_hand and Hand_Strength < 0.5:
+        if 'Upstart Goblin' in test_hand and Hand_Strength < 2:
+          Results = Upstart(test_hand, test_deck)
+          Hand_Strength = Results[0]
+        if 'Pot of Desires' in test_hand and Hand_Strength < 1:
+          DesiresHands += 1
           Results = Desires(test_hand, test_deck)
           Hand_Strength = Results[0]
         if Results[1] == True:
@@ -42,10 +47,14 @@ def combo(deck, n):
 
     'print(End_Board)' #un comment if you want to see every number in the list
     print(my_dict)
+    print(' ')
     print(Bricked, "% Bricked")
     print(Rank_half_Board, "% Rank 0.5 Board")
     print(Rank_1_Board, "% Rank 1 Board")
     print(Rank_2_Board, "% Rank 2 Board")
     print(Rank_3_Board, "% Rank 3 Board")
+    print(' ')
     print(Interruption_Count, "% With Set Card")
+    print(' ')
     print(f'{n} Test Hands Simulated')
+    print(f'{DesiresHands} Hands resolved Pot of Desires')

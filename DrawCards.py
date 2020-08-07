@@ -11,3 +11,9 @@ def Desires(test_hand, deck):
   test_hand.append(deck.pop(0))
 
   return ComboCheck(test_hand, deck)
+
+def Upstart(test_hand, deck):
+  test_hand.remove('Upstart Goblin')
+  test_hand.append(deck.pop(0))
+  return ComboCheck(test_hand,deck)
+  
