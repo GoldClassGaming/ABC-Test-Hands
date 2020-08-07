@@ -9,10 +9,8 @@ def shuffle(deck):
 #Draws 5 cards
 def draw(deck, n):
     hand = []
-    test_deck = deck.copy()
-    shuffle(test_deck)
     for i in range(n):
-        hand.append(test_deck.pop(0))
+        hand.append(deck.pop(0))
     return hand
 
 # Checks whehter a given hand is capable of performing any of the preset combos
@@ -20,12 +18,13 @@ def combo(deck, n):
     End_Board = [] #sets up the end board list
     Interruptions = [] #sets up the final list for hand traps or set cards
     for i in range(0, n):
-        test_hand = draw(deck, 5)
-        shuffle(deck)
-        Results = ComboCheck(test_hand, deck)
+        test_deck = deck.copy()
+        shuffle(test_deck)
+        test_hand = draw(test_deck, 5)
+        Results = ComboCheck(test_hand, test_deck)
         Hand_Strength = Results[0]
-        if Hand_Strength < 1:
-          Results = Desires(test_hand, deck)
+        if 'Pot of Desires' in test_hand and Hand_Strength < 0.5:
+          Results = Desires(test_hand, test_deck)
           Hand_Strength = Results[0]
         if Results[1] == True:
           Interruptions.append(1)

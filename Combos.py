@@ -17,17 +17,20 @@ def ComboCheck(Starting_Hand, deck):
         Board_Rank = 3
     if 'Set Rotation' in Starting_Hand and 'Cynet Universe' in deck and 'Union Driver' in deck and Board_Rank < 3:
         Board_Rank = 3
-    if 'Unauthorized Reactivation' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 3:
+
+    if 'Unauthorized Reactivation' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 3:
         Board_Rank = 3
-    if 'Unauthorized Reactivation' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and Board_Rank < 3:
+    if 'Unauthorized Reactivation' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 3:
         Board_Rank = 3
-    if 'Unauthorized Reactivation' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 1:
+    if 'Unauthorized Reactivation' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 1:
         Board_Rank = 1
+
     if 'Galaxy Soldier' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 2:
         Board_Rank = 2
     if 'Galaxy Soldier' in Starting_Hand and 'B-Buster Drake' in Starting_Hand and 'C-Crush Wyvern' in Starting_Hand and Board_Rank < 2:
         Board_Rank = 2
-    if 'B-Buster Drake' in Starting_Hand and 'Photon Sanctuary' in Starting_Hand and Board_Rank < 1:
+    if 'B-Buster Drake' in Starting_Hand and 'Photon Sanctuary' in Starting_Hand and 'Union Driver' in Starting_Hand and Board_Rank < 1:
+
         Board_Rank = 1
     if 'Galaxy Soldier' in Starting_Hand and 'A-Assault Core' in Starting_Hand and 'A-Assault Core' in Starting_Hand and Board_Rank < 0.5:
         Board_Rank = 0.5
