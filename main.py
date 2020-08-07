@@ -17,4 +17,4 @@ def main(deck_txt, n):
     combo(deck, n)
 
 # By editing the parameters of main you can change which deck is tested and how many hands are simulated
-main("Decklists/Pure_ABC.txt", 10000)
+main("Decklists/Desires_ABC.txt", 10000)
