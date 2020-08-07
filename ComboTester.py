@@ -1,5 +1,6 @@
 import random #xeo added a comment for repo testing purposes
 from Combos import *
+from DrawCards import *
 
 #Shuffles deck
 def shuffle(deck):
@@ -23,6 +24,9 @@ def combo(deck, n):
         shuffle(deck)
         Results = ComboCheck(test_hand, deck)
         Hand_Strength = Results[0]
+        if Hand_Strength < 1:
+          Results = Desires(test_hand, deck)
+          Hand_Strength = Results[0]
         if Results[1] == True:
           Interruptions.append(1)
         End_Board.append(Hand_Strength) #adds the rank of the best possible board you can make with your starting hand to the End_Board list
