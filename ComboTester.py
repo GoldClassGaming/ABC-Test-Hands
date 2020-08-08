@@ -46,6 +46,7 @@ def combo(deck, n):
     Interruption_Count = (Interruptions.count(1) / n) * 100 #the number of hands that have an interuption (a hand trap or set card)
 
     'print(End_Board)' #un comment if you want to see every number in the list
+    print(' ')
     print(my_dict)
     print(' ')
     print(Bricked, "% Bricked")

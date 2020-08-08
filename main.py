@@ -2,6 +2,7 @@
 #Updated and Maintained by: GoldClass @AndyGCG on twitter
 
 from ComboTester import combo
+from CardDB import CardDatabase
 
 def import_deck(filename):
     with open(filename) as f:
@@ -11,6 +12,7 @@ def import_deck(filename):
 
 # What decklist we want to import and how many hands we want to simulate
 def main(deck_txt, n):
+    CardDatabase()
     print(deck_txt)
     deck = import_deck(deck_txt)
     print(deck)
