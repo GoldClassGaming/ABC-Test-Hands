@@ -10,7 +10,6 @@ def shuffle(deck):
 def draw(deck, n):
     hand = []
     for i in range(n):
-        print(deck[i]['name'])
         hand.append(deck.pop(0))
     return hand
 
@@ -23,6 +22,7 @@ def combo(deck, n):
         test_deck = deck.copy()
         shuffle(test_deck)
         test_hand = draw(test_deck, 5)
+        #Everything Below This and The Majority of Combos.py needs to be rewritten
         Results = ComboCheck(test_hand, test_deck)
         Hand_Strength = Results[0]
         if 'Upstart Goblin' in test_hand and Hand_Strength < 2:
