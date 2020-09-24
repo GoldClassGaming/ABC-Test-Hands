@@ -10,6 +10,7 @@ def shuffle(deck):
 def draw(deck, n):
     hand = []
     for i in range(n):
+        print(deck[i]['name'])
         hand.append(deck.pop(0))
     return hand
 
