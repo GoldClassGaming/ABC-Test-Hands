@@ -18,9 +18,6 @@ def CardImport(ID):
   CardData = RawData.json()['data']
   #Stores all of the cards info in a list to be returned to the deck importer
   return(CardData[0])
-  
-
-
 
 def import_deck(filename):
     with open(filename) as f:
