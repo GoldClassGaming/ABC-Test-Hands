@@ -18,10 +18,11 @@ def combo(deck, n):
     End_Board = [] #sets up the end board list
     Interruptions = [] #sets up the final list for hand traps or set cards
     DesiresHands = 0
-    for i in range(0, n):
+    for i in range(0, 1):
         test_deck = deck.copy()
         shuffle(test_deck)
         test_hand = draw(test_deck, 5)
+        #Everything Below This and The Majority of Combos.py needs to be rewritten to match new card data formatting and to match new hand scoring system
         Results = ComboCheck(test_hand, test_deck)
         Hand_Strength = Results[0]
         if 'Upstart Goblin' in test_hand and Hand_Strength < 2:
@@ -46,6 +47,7 @@ def combo(deck, n):
     Interruption_Count = (Interruptions.count(1) / n) * 100 #the number of hands that have an interuption (a hand trap or set card)
 
     'print(End_Board)' #un comment if you want to see every number in the list
+    print(' ')
     print(my_dict)
     print(' ')
     print(Bricked, "% Bricked")
